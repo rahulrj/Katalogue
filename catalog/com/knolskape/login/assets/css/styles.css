@@ -1,0 +1,53 @@
+.login-btn-img{
+	width: 20px;
+	height: 20px;
+}
+.login-btn-img:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+#loginContainer input {
+	height: 40px;
+	font-size: 16px;
+	width: 100%;
+	color: black;
+}
+.app_info {
+	font-size: 16px;
+	padding: 5px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+.app_info li {
+	margin-top: 4em;
+}
+.btn_container_header {
+	margin-left: -20px;
+}
+.instructions p {
+	position : relative;
+	top: 50px;
+	font-size : 15px;
+	color: maroon;
+}
+#loginContainer .title{
+	color: green;
+	margin-left: 50px;
+	font-size: 45px;
+	text-shadow: 2px 3px rgba(1, 1, 1, 0.11);
+}
+#loginContainer .body{
+	color: brown;
+	margin-left: 50px;
+	font-size: 16px;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+}
+
+.kapp-cqt-hide {
+	display: none !important;
+}
+.kapp-cqt-show {
+	display: block !important;
+}
+#loginContainer {
+	height: 450px;
+}

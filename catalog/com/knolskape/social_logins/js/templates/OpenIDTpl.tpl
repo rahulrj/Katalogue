@@ -1,0 +1,1 @@
+<p id="openid" class="social_login_btn openid"></p>

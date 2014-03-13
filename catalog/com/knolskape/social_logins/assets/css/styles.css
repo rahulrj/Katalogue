@@ -1,0 +1,54 @@
+.social_login_btn  {
+	cursor: hand;
+	cursor: pointer;
+	border-radius: 5px 5px 5px 5px;
+	background: #edebe8;
+	-webkit-tap-highlight-color: #BDF;
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #f7f4ed), color-stop(100%, #fff));
+	background-image: -webkit-linear-gradient(#f7f4ed, #fff);
+	background-image: -moz-linear-gradient(#f7f4ed, #fff);
+	background-image: -ms-linear-gradient(#f7f4ed, #fff);
+	background-image: -o-linear-gradient(#f7f4ed, #fff);
+	background-image: linear-gradient(#f7f4ed, #fff);
+	margin: 0px 10px;
+}
+.social_login_btn:hover {
+	-webkit-box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 1px 2px 10px 2px rgba(0, 0, 0, 0.3);
+	-webkit-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-ms-transition: all 0.1s ease;
+	-o-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+	
+}
+.facebook {
+	height: 29px;
+	width: 162px;
+	background:url('../img/social_share_buttons.png') 0px -38px;
+}
+.twitter {
+	height: 29px;
+	width: 162px;
+	background:url('../img/social_share_buttons.png') 0px 0px ;
+}
+.linkedin {
+	height: 29px;
+	width: 162px;
+	background:url('../img/social_share_buttons.png') 0px -73px;
+}
+.openid {
+	height: 29px;
+	width: 162px;
+	background:url('../img/social_share_buttons.png') 0px -148px;
+}
+.google {
+	background: url("../img/social_share_buttons.png") 0px -185px;
+	height: 29px;
+	width: 162px;
+}
+
+.btn_container p {
+	display: inline-block;
+}

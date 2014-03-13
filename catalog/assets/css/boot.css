@@ -1,0 +1,237 @@
+.input-group{
+ 
+    position: relative;
+	width:40%;
+	left:25%;
+	margin-top:3%;
+
+	
+}
+
+input[type="Search"]{
+
+	text-align: center;
+}
+
+.checks{
+
+    position: relative;
+    margin-top: 5%;
+	left:10px;
+	height: 230px;
+	width:200px;
+
+	border: 2px solid black;
+	
+}
+
+/*.abcd{
+
+	margin-left: 20px;
+}*/
+
+
+.panel{
+
+	width: 850px;
+	margin-left: 20%;
+	margin-top: 4%;
+	position: relative;
+}
+
+.panel-body{
+
+	height: 180px;
+}
+
+
+.products{
+
+	width: 40%;
+	border-right: 2px solid black;
+	border-right-color: #428bca;
+	height: 122%;
+	margin-top: -2%;
+
+}
+.roles{
+
+	width: 25%;
+	width: 25%;
+	margin-left: 40%;
+	height: 122%;
+	margin-top: -3%;
+	border-right-color: #428bca;
+	
+}
+
+.skill{
+
+	width: 25%;
+}
+
+.label{
+
+	font-size: initial;
+	margin-left: 8%;
+
+}
+
+#skills{
+
+	margin-left:50%;
+}
+
+.rolelist{
+
+  	position: relative;
+	top: 30%;
+	left: -27%;
+
+}
+
+.skilllist{
+
+	position: relative;
+	top: 27%;
+	left: -7%;
+
+}
+.inLine{
+	display: inline;
+}
+
+#mycolumn,#mycolumn2,#mycolumn3{
+	border-right: 2px solid black;
+	border-right-color: #428bca;
+	height: 182px;
+	margin-top: -2%;
+
+
+}
+
+#mycolumn3{
+  
+  height:182px;
+
+ 
+
+}
+
+#roleclass{
+
+	
+	position: relative;
+	top: 0%;
+	left:9%;
+
+}
+
+#skillclass{
+   	position: relative;
+	
+	left: 20%;
+
+}
+
+.rahul{
+   
+   width: 100px;
+   height: 100px;
+   border: 2px solid black;
+
+}
+
+.logo{
+
+	width: 80px;
+	height: 80px;
+	position: relative;
+	top: 5%;
+	background: url(../images/knol.jpg);
+}
+
+.prodName{
+  	position: relative;
+	left: 5%;
+	top: 5%;
+	font-size: 25px;
+
+
+}
+
+.priceManager{
+
+	position: relative;
+	top: 5%;
+}
+
+
+#basisselect{
+  	width: 10%;
+	position: relative;
+	left: 67%;
+	top: -5%;
+	margin-top: -2.5%;
+
+}
+
+
+#roleClassProgram{
+
+ 	position: relative;
+	top: 12%;
+}
+
+#skillClassProgram{
+
+   	position: relative;
+	top: 12%;
+	margin-top: 7%;
+
+}
+
+#prodClassProgram{
+   	position: relative;
+	top: 12%;
+
+}
+
+.roleListProgram{
+   position: relative;
+	top: 20%;
+	left: 8%;
+
+}
+
+.skillListProgram{
+  	position: relative;
+	top: 20%;
+	left: 22%;
+	margin-top: 14%;
+
+}
+.prodListProgram{
+
+  	position: relative;
+	top: 20%;
+	left: 8%;
+
+}
+
+.badge{
+
+ 	margin-left: 20px;
+	text-align: right;
+	right: true;
+	float: right;
+	margin-right: 20px;
+	margin-top: 8px;
+	background-color: #428bca;
+
+}
+
+#bootSearch_view{
+
+	
+}

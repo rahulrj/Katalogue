@@ -1,0 +1,319 @@
+
+.textInput{
+	margin-left: 25%;
+	margin-top:2%;
+	margin-right: 40;
+	height: 35px;
+	text-align: center;
+	font-family: Arial,Helvetica,sans-serif;
+    border:1px solid #00ccff;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 40px;
+
+
+
+}
+
+.submitButton{
+
+	height: 35px;
+	color: #ffffff;
+	background: #0095cd;
+	border:1px solid #00ccff;
+	border-radius: 5px;
+	width:70px;
+	margin-left:50px;
+}
+
+
+
+
+
+#slide {
+    
+    position:absolute;
+    top:0;
+    left:0;
+    width:150px;
+    height:100%;
+   	background-color: #765;
+	
+	box-shadow: 4px 0 5px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+nav:after {
+	position: absolute;
+	content: ' ';
+	width: 0;
+	height: 0;
+	right: -40px;
+	top: 40%;
+	border-width: 35px 20px;
+	border-style: solid;
+	border-color: transparent transparent transparent #765;
+}
+
+/*input[type=checkbox]
+{
+  
+  -ms-transform: scale(2); 
+  -moz-transform: scale(2); 
+  -webkit-transform: scale(2); 
+  -o-transform: scale(2);
+  margin: px;
+}*/
+
+.checkboxes {    
+	position: relative;
+	margin-top: 200px;
+	margin-left: 30px;
+
+} 
+
+
+.title{
+
+	margin-top: 7%;
+	margin-left: 2%;
+}
+
+
+
+/*.checktext{
+
+	font-size: 20;
+}
+*/
+
+/*input[type="checkbox"] {
+    outline: 2px solid #F00;
+
+}*/
+/*input[type="checkbox"] + label span {
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-1px 4px 0 0;
+    vertical-align:middle;
+    background:url(../images/check_radio_sheet.png) left top no-repeat;
+   
+}
+input[type="checkbox"]:checked + label span {
+    background:url(../images/check_radio_sheet.png);
+    color: white;
+}*/
+
+
+
+.box1{
+
+	height: 100%; /*Specify Height*/
+	width:  39.1%; /*Specify Width*/
+	border: 1px solid black; /*Add 1px solid border, use any color you want*/
+	background-color: white; /*Add a background color to the box*/
+	float: left;
+
+}
+.class1
+{
+	position: absolute;
+	left:100px;
+	color: red;
+
+}
+
+.box2{
+
+	height: 100%; /*Specify Height*/
+	width:  20%; /*Specify Width*/
+	border: 1px solid black; /*Add 1px solid border, use any color you want*/
+	background-color: white; /*Add a background color to the box*/
+ 	float:left;
+}
+
+.box3{
+
+	height: 100%; /*Specify Height*/
+	width:  20%; /*Specify Width*/
+	border:1px solid black;
+	background-color: white; /*Add a background color to the box*/
+	float: left;
+
+}
+
+
+.box4{
+
+	height: 100%; /*Specify Height*/
+	width:  20%; /*Specify Width*/
+	border:1px solid black;
+	background-color: white; /*Add a background color to the box*/
+	float: left;
+
+}
+
+.mclass{
+     
+	margin:0px auto;
+	height: 190px;
+	background: white;
+	width: 70%;
+	
+}
+
+
+.clients{
+ 
+    position: relative;
+	margin-left: 35%;
+	top:5%;
+	font-size: 20;
+	color: black;
+	font:monospace;
+
+
+
+}
+
+.roless,.skillss{
+
+	position: relative;
+	
+	font-size: 20;
+	color: black;
+	font:monospace;
+	padding-left: 35%;
+	top:5%;
+}
+
+.rolename{
+
+    position: relative;
+	top:15%;
+	display: block;
+	left:32%;
+	width: 100px;
+}
+
+.skillname{
+
+    position: relative;
+	top:15%;
+	display: block;
+	left:32%;
+	width: 100px;
+}
+
+.liness{
+
+	width: 100;
+	height: 3;
+	background: black;
+	margin-left:90;
+	margin-top: 10;
+}
+
+.price{
+    
+	
+	margin-top: 15%;
+    font-size: 15;
+	margin-left: 5%;
+}
+.manager{
+
+   
+   font-size: 15;
+   margin-left: 5%;
+   margin-top: 1%;
+   
+}
+
+.progname{
+
+	
+
+	
+	left: 5%;
+	margin-left: 13%;
+	font: 30px Arial;
+	margin-top: -15%;
+
+
+
+}
+
+.logo{
+
+	margin-top: 5%;
+}
+/*
+.roles {
+  	-webkit-border-radius: 0;
+  	-moz-border-radius: 0;
+  	border-radius: 8px;
+  	text-shadow: 4px 1px 4px #666666;
+  	font-family: Courier New;
+  	color: #ffffff;
+  	font-size: 20px;
+  	background: #edcb1f;
+  	padding: 10px 20px 10px 20px;
+  	border: solid #a2c8e0 2px;
+  	text-decoration: none;
+  	margin-left: 27%%;
+  	margin-top: 20%;
+  	width: 120px;
+
+}
+
+.roles:hover {
+  	background: #fac43c;
+  	text-decoration: none;
+}
+
+.skills {
+  	-webkit-border-radius: 3;
+  	-moz-border-radius: 3;
+  	border-radius: 8px;
+  	text-shadow: 4px 1px 4px #666666;
+  	font-family: Courier New;
+  	color: #ffffff;
+  	font-size: 20px;
+  	background: #2ead23;
+  	padding: 10px 20px 10px 20px;
+  	border: solid #a2c8e0 2px;
+  	text-decoration: none;
+  	margin-left: 27%;
+  	margin-top: 10%;
+  	width: 120px;
+
+}
+
+.skills:hover {
+  	background: #5bc95b;
+  	text-decoration: none;
+}
+
+
+
+
+.client1,.client2,.client3,.client4{
+	
+	margin-top: 10px;
+	font-size: 20;
+	font-weight: bold;
+	margin-left: 30%;
+	color:#0B0B61;
+
+
+}
+
+.client1{
+
+	margin-top: 30px;
+}
+
+
+
